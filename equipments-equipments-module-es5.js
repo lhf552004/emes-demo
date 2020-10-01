@@ -6,6 +6,92 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["equipments-equipments-module"], {
   /***/
+  "./src/app/equipments/equipment-default/equipment-default.component.ts":
+  /*!*****************************************************************************!*\
+    !*** ./src/app/equipments/equipment-default/equipment-default.component.ts ***!
+    \*****************************************************************************/
+
+  /*! exports provided: EquipmentDefaultComponent */
+
+  /***/
+  function srcAppEquipmentsEquipmentDefaultEquipmentDefaultComponentTs(module, __webpack_exports__, __webpack_require__) {
+    "use strict";
+
+    __webpack_require__.r(__webpack_exports__);
+    /* harmony export (binding) */
+
+
+    __webpack_require__.d(__webpack_exports__, "EquipmentDefaultComponent", function () {
+      return EquipmentDefaultComponent;
+    });
+    /* harmony import */
+
+
+    var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(
+    /*! @angular/core */
+    "./node_modules/@angular/core/__ivy_ngcc__/fesm2015/core.js");
+
+    var EquipmentDefaultComponent = /*#__PURE__*/function () {
+      function EquipmentDefaultComponent() {
+        _classCallCheck(this, EquipmentDefaultComponent);
+      }
+
+      _createClass(EquipmentDefaultComponent, [{
+        key: "ngOnInit",
+        value: function ngOnInit() {}
+      }]);
+
+      return EquipmentDefaultComponent;
+    }();
+
+    EquipmentDefaultComponent.ɵfac = function EquipmentDefaultComponent_Factory(t) {
+      return new (t || EquipmentDefaultComponent)();
+    };
+
+    EquipmentDefaultComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
+      type: EquipmentDefaultComponent,
+      selectors: [["emes-equipment-default"]],
+      decls: 4,
+      vars: 0,
+      consts: [[1, "container-fluid", "d-flex", "flex-column", "flex-fill"], [1, "row", "p-0", "flex-fill", "align-items-center", "mt-5"], [1, "col", "text-center"]],
+      template: function EquipmentDefaultComponent_Template(rf, ctx) {
+        if (rf & 1) {
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3, "Select a item in the left hand side list");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        }
+      },
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2VxdWlwbWVudHMvZXF1aXBtZW50LWRlZmF1bHQvZXF1aXBtZW50LWRlZmF1bHQuY29tcG9uZW50LnNjc3MifQ== */"]
+    });
+    /*@__PURE__*/
+
+    (function () {
+      _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](EquipmentDefaultComponent, [{
+        type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
+        args: [{
+          selector: 'emes-equipment-default',
+          templateUrl: './equipment-default.component.html',
+          styleUrls: ['./equipment-default.component.scss']
+        }]
+      }], function () {
+        return [];
+      }, null);
+    })();
+    /***/
+
+  },
+
+  /***/
   "./src/app/equipments/equipment-home/equipment-home.component.ts":
   /*!***********************************************************************!*\
     !*** ./src/app/equipments/equipment-home/equipment-home.component.ts ***!
@@ -703,105 +789,114 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     /* harmony import */
 
 
-    var _equipment_home_equipment_home_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    var _equipment_default_equipment_default_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! ./equipment-default/equipment-default.component */
+    "./src/app/equipments/equipment-default/equipment-default.component.ts");
+    /* harmony import */
+
+
+    var _equipment_home_equipment_home_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
     /*! ./equipment-home/equipment-home.component */
     "./src/app/equipments/equipment-home/equipment-home.component.ts");
     /* harmony import */
 
 
-    var _equipment_equipment_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    var _equipment_equipment_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
     /*! ./equipment/equipment.component */
     "./src/app/equipments/equipment/equipment.component.ts");
     /* harmony import */
 
 
-    var _equipments_wrapper_equipments_wrapper_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    var _equipments_wrapper_equipments_wrapper_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
     /*! ./equipments-wrapper/equipments-wrapper.component */
     "./src/app/equipments/equipments-wrapper/equipments-wrapper.component.ts");
     /* harmony import */
 
 
-    var _equipments_equipments_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+    var _equipments_equipments_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
     /*! ./equipments/equipments.component */
     "./src/app/equipments/equipments/equipments.component.ts");
     /* harmony import */
 
 
-    var _route_resolvers_equipment_resolver_service__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(
+    var _route_resolvers_equipment_resolver_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
     /*! ./route-resolvers/equipment-resolver.service */
     "./src/app/equipments/route-resolvers/equipment-resolver.service.ts");
     /* harmony import */
 
 
-    var _route_resolvers_equipments_resolver_service__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(
+    var _route_resolvers_equipments_resolver_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
     /*! ./route-resolvers/equipments-resolver.service */
     "./src/app/equipments/route-resolvers/equipments-resolver.service.ts");
     /* harmony import */
 
 
-    var _route_resolvers_section_resolver_service__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(
+    var _route_resolvers_section_resolver_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./route-resolvers/section-resolver.service */
     "./src/app/equipments/route-resolvers/section-resolver.service.ts");
     /* harmony import */
 
 
-    var _route_resolvers_sections_resolver_service__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+    var _route_resolvers_sections_resolver_service__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
     /*! ./route-resolvers/sections-resolver.service */
     "./src/app/equipments/route-resolvers/sections-resolver.service.ts");
     /* harmony import */
 
 
-    var _section_section_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    var _section_section_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
     /*! ./section/section.component */
     "./src/app/equipments/section/section.component.ts");
     /* harmony import */
 
 
-    var _sections_wrapper_sections_wrapper_component__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(
+    var _sections_wrapper_sections_wrapper_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
     /*! ./sections-wrapper/sections-wrapper.component */
     "./src/app/equipments/sections-wrapper/sections-wrapper.component.ts");
     /* harmony import */
 
 
-    var _sections_sections_component__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(
+    var _sections_sections_component__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(
     /*! ./sections/sections.component */
     "./src/app/equipments/sections/sections.component.ts");
 
     var routes = [{
       path: '',
-      component: _equipment_home_equipment_home_component__WEBPACK_IMPORTED_MODULE_2__["EquipmentHomeComponent"],
+      component: _equipment_home_equipment_home_component__WEBPACK_IMPORTED_MODULE_3__["EquipmentHomeComponent"],
       children: [{
         path: 'sections',
-        component: _sections_wrapper_sections_wrapper_component__WEBPACK_IMPORTED_MODULE_11__["SectionsWrapperComponent"],
+        component: _sections_wrapper_sections_wrapper_component__WEBPACK_IMPORTED_MODULE_12__["SectionsWrapperComponent"],
         children: [{
           path: '',
           resolve: {
-            sections: _route_resolvers_sections_resolver_service__WEBPACK_IMPORTED_MODULE_9__["SectionsResolverService"]
+            sections: _route_resolvers_sections_resolver_service__WEBPACK_IMPORTED_MODULE_10__["SectionsResolverService"]
           },
-          component: _sections_sections_component__WEBPACK_IMPORTED_MODULE_12__["SectionsComponent"]
+          component: _sections_sections_component__WEBPACK_IMPORTED_MODULE_13__["SectionsComponent"]
         }, {
           path: ':sectionId',
           resolve: {
-            section: _route_resolvers_section_resolver_service__WEBPACK_IMPORTED_MODULE_8__["SectionResolverService"]
+            section: _route_resolvers_section_resolver_service__WEBPACK_IMPORTED_MODULE_9__["SectionResolverService"]
           },
-          component: _section_section_component__WEBPACK_IMPORTED_MODULE_10__["SectionComponent"]
+          component: _section_section_component__WEBPACK_IMPORTED_MODULE_11__["SectionComponent"]
         }]
       }, {
         path: 'equipments',
-        component: _equipments_wrapper_equipments_wrapper_component__WEBPACK_IMPORTED_MODULE_4__["EquipmentsWrapperComponent"],
+        component: _equipments_wrapper_equipments_wrapper_component__WEBPACK_IMPORTED_MODULE_5__["EquipmentsWrapperComponent"],
         children: [{
           path: '',
           resolve: {
-            equipments: _route_resolvers_equipments_resolver_service__WEBPACK_IMPORTED_MODULE_7__["EquipmentsResolverService"]
+            equipments: _route_resolvers_equipments_resolver_service__WEBPACK_IMPORTED_MODULE_8__["EquipmentsResolverService"]
           },
-          component: _equipments_equipments_component__WEBPACK_IMPORTED_MODULE_5__["EquipmentsComponent"]
+          component: _equipments_equipments_component__WEBPACK_IMPORTED_MODULE_6__["EquipmentsComponent"]
         }, {
           path: ':equipId',
           resolve: {
-            equipment: _route_resolvers_equipment_resolver_service__WEBPACK_IMPORTED_MODULE_6__["EquipmentResolverService"]
+            equipment: _route_resolvers_equipment_resolver_service__WEBPACK_IMPORTED_MODULE_7__["EquipmentResolverService"]
           },
-          component: _equipment_equipment_component__WEBPACK_IMPORTED_MODULE_3__["EquipmentComponent"]
+          component: _equipment_equipment_component__WEBPACK_IMPORTED_MODULE_4__["EquipmentComponent"]
         }]
+      }, {
+        path: '',
+        component: _equipment_default_equipment_default_component__WEBPACK_IMPORTED_MODULE_2__["EquipmentDefaultComponent"]
       }]
     }];
 
@@ -1000,6 +1095,12 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     var _equipments_wrapper_equipments_wrapper_component__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
     /*! ./equipments-wrapper/equipments-wrapper.component */
     "./src/app/equipments/equipments-wrapper/equipments-wrapper.component.ts");
+    /* harmony import */
+
+
+    var _equipment_default_equipment_default_component__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(
+    /*! ./equipment-default/equipment-default.component */
+    "./src/app/equipments/equipment-default/equipment-default.component.ts");
 
     var EquipmentsModule = function EquipmentsModule() {
       _classCallCheck(this, EquipmentsModule);
@@ -1017,7 +1118,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
     (function () {
       (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](EquipmentsModule, {
-        declarations: [_equipments_equipments_component__WEBPACK_IMPORTED_MODULE_1__["EquipmentsComponent"], _sections_sections_component__WEBPACK_IMPORTED_MODULE_2__["SectionsComponent"], _section_section_component__WEBPACK_IMPORTED_MODULE_3__["SectionComponent"], _equipment_equipment_component__WEBPACK_IMPORTED_MODULE_4__["EquipmentComponent"], _equipment_home_equipment_home_component__WEBPACK_IMPORTED_MODULE_7__["EquipmentHomeComponent"], _sections_wrapper_sections_wrapper_component__WEBPACK_IMPORTED_MODULE_8__["SectionsWrapperComponent"], _equipments_wrapper_equipments_wrapper_component__WEBPACK_IMPORTED_MODULE_9__["EquipmentsWrapperComponent"]],
+        declarations: [_equipments_equipments_component__WEBPACK_IMPORTED_MODULE_1__["EquipmentsComponent"], _sections_sections_component__WEBPACK_IMPORTED_MODULE_2__["SectionsComponent"], _section_section_component__WEBPACK_IMPORTED_MODULE_3__["SectionComponent"], _equipment_equipment_component__WEBPACK_IMPORTED_MODULE_4__["EquipmentComponent"], _equipment_home_equipment_home_component__WEBPACK_IMPORTED_MODULE_7__["EquipmentHomeComponent"], _sections_wrapper_sections_wrapper_component__WEBPACK_IMPORTED_MODULE_8__["SectionsWrapperComponent"], _equipments_wrapper_equipments_wrapper_component__WEBPACK_IMPORTED_MODULE_9__["EquipmentsWrapperComponent"], _equipment_default_equipment_default_component__WEBPACK_IMPORTED_MODULE_10__["EquipmentDefaultComponent"]],
         imports: [_shared_shared_module__WEBPACK_IMPORTED_MODULE_6__["SharedModule"], _equipments_routing_module__WEBPACK_IMPORTED_MODULE_5__["EquipmentsRoutingModule"]]
       });
     })();
@@ -1028,7 +1129,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](EquipmentsModule, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
-          declarations: [_equipments_equipments_component__WEBPACK_IMPORTED_MODULE_1__["EquipmentsComponent"], _sections_sections_component__WEBPACK_IMPORTED_MODULE_2__["SectionsComponent"], _section_section_component__WEBPACK_IMPORTED_MODULE_3__["SectionComponent"], _equipment_equipment_component__WEBPACK_IMPORTED_MODULE_4__["EquipmentComponent"], _equipment_home_equipment_home_component__WEBPACK_IMPORTED_MODULE_7__["EquipmentHomeComponent"], _sections_wrapper_sections_wrapper_component__WEBPACK_IMPORTED_MODULE_8__["SectionsWrapperComponent"], _equipments_wrapper_equipments_wrapper_component__WEBPACK_IMPORTED_MODULE_9__["EquipmentsWrapperComponent"]],
+          declarations: [_equipments_equipments_component__WEBPACK_IMPORTED_MODULE_1__["EquipmentsComponent"], _sections_sections_component__WEBPACK_IMPORTED_MODULE_2__["SectionsComponent"], _section_section_component__WEBPACK_IMPORTED_MODULE_3__["SectionComponent"], _equipment_equipment_component__WEBPACK_IMPORTED_MODULE_4__["EquipmentComponent"], _equipment_home_equipment_home_component__WEBPACK_IMPORTED_MODULE_7__["EquipmentHomeComponent"], _sections_wrapper_sections_wrapper_component__WEBPACK_IMPORTED_MODULE_8__["SectionsWrapperComponent"], _equipments_wrapper_equipments_wrapper_component__WEBPACK_IMPORTED_MODULE_9__["EquipmentsWrapperComponent"], _equipment_default_equipment_default_component__WEBPACK_IMPORTED_MODULE_10__["EquipmentDefaultComponent"]],
           imports: [_shared_shared_module__WEBPACK_IMPORTED_MODULE_6__["SharedModule"], _equipments_routing_module__WEBPACK_IMPORTED_MODULE_5__["EquipmentsRoutingModule"]]
         }]
       }], null, null);

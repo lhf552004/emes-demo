@@ -555,7 +555,7 @@ class WarehouseDefaultComponent {
     }
 }
 WarehouseDefaultComponent.ɵfac = function WarehouseDefaultComponent_Factory(t) { return new (t || WarehouseDefaultComponent)(); };
-WarehouseDefaultComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WarehouseDefaultComponent, selectors: [["emes-warehouse-default"]], decls: 4, vars: 0, consts: [[1, "container-fluid", "d-flex", "flex-column", "flex-fill"], [1, "row", "p-0", "flex-fill", "align-items-center"], [1, "col", "text-center"]], template: function WarehouseDefaultComponent_Template(rf, ctx) { if (rf & 1) {
+WarehouseDefaultComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: WarehouseDefaultComponent, selectors: [["emes-warehouse-default"]], decls: 4, vars: 0, consts: [[1, "container-fluid", "d-flex", "flex-column", "flex-fill"], [1, "row", "p-0", "flex-fill", "align-items-center", "mt-5"], [1, "col", "text-center"]], template: function WarehouseDefaultComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -1006,7 +1006,7 @@ WarehousesComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("header", "Product")("menuItems", ctx.menuItems);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("header", "Warehouse")("menuItems", ctx.menuItems);
     } }, directives: [_shared_side_bar_side_bar_component__WEBPACK_IMPORTED_MODULE_5__["SideBarComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_4__["RouterOutlet"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3dhcmVob3VzZXMvd2FyZWhvdXNlcy93YXJlaG91c2VzLmNvbXBvbmVudC5zY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](WarehousesComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
